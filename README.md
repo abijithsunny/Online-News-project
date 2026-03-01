@@ -1,2 +1,2 @@
 # Online-News-project
-Hi All,
+Hi All
