@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto",sans-serif;
+}
+header{
+    background-color: rgb(223, 101, 77);
+    padding-left: 10%;
+    height: 100px;
+    align-content:center
+}
+
+nav{
+    justify-content: space-between;
+    display: flex;
+    padding-right: 5%;
+    align-items: center;
+
+}
+.logo h1{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 8px 12px rgb(0, 0, 0);
+}
+.search-area input{
+ width: 350px;
+ height: 40px;
+ border: 1px solid  rgb(223, 101, 77);
+ border-radius: 8px;
+ padding-left: 10px;
+ font-size: 18px;
+}
+.search-area button{
+    width: 80px;
+    height: 40px;
+    border: 1px solid rgb(7, 244, 7);;
+    border-radius: 8px;
+    background-color:  rgb(7, 244, 7);
+    font-size: 18px;
+}
+@media (max-width: 778px) {
+  .search-area input {
+   width: 200px;
+   height: 30px;
+   margin-left: 20px;
+  }
+
+  .search-area button {
+    width: 60px;
+    height: 30px;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 480px) {
+    header{
+           padding-left: 5%;
+    }
+    .logo h1{
+        font-size: 45px;
+    }
+  .search-area input {
+   width: 200px;
+   height: 30px;
+   margin-left: 30px;
+  }
+
+  .search-area button {
+    width: 60px;
+    height: 30px;
+    margin-left: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.news-cards{
+   width:100%;
+   padding: 5% 5%;
+  
+   
+
+}
+.cards-container{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 40px;
+   justify-content: center;
+  
+   
+}
+.card{
+    width: 350px;
+    padding: 20px 0px 20px 0px;
+    justify-items: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    
+    
+}
+.card img{
+    width: 300px;
+    height: 250px;
+}
+.card .card-title {
+    padding: 20px;
+}
+.card .card-description{
+      padding: 20px;
+}
+
+footer {
+    color: #ffffff;
+     font-family: "Roboto", sans-serif;
+  background: rgb(223, 101, 77);;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #6b7280;
+}
+footer p{
+    color: #ffffff;
+    font-size: 18px;
+}
