@@ -1,4 +1,4 @@
-#📰 Online News Project
+**📰 Online News Project**
 
 A full-stack Online News Portal that delivers the latest news articles with categorized sections, user-friendly UI, and dynamic content management. This project demonstrates modern web development practices including API integration, responsive design, and structured backend architecture.
 
